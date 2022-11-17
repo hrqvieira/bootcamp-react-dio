@@ -10,13 +10,10 @@ export const InputContainer = styled.div`
     align-items: center;
     margin-bottom: 20px;
 
-    textarea:focus, input:focus, -webkit-autofill, select:focus {
+    textarea:focus, input:focus, select:focus {
     outline: 0;
 }
 
-input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0px 1000px white inset;
-}
 `
 
 export const IconContainer = styled.div`
